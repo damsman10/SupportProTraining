@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-raleway {
+    font-family: 'raleway', sans-serif;
+  }
+
+  .font-montserrat {
+    font-family: 'montserrat', sans-serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
