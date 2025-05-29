@@ -1,19 +1,29 @@
-import heropic from '../assets/heropic.png'
+import img from '../assets/titlebg.png';
 
-const Hero = () => {
+const Title = () => {
   return (
-    <div className="m-auto mt-8 w-full max-w-[1216px] h-auto md:h-[495px] rounded-l-[20px] rounded-r-[40px] bg-[#4E88E0] flex flex-col md:flex-row justify-between gap-4 overflow-hidden">
-      
-      <div className="left w-full md:w-[525px] m-6 md:m-8 text-[32px] md:text-[60px] font-raleway font-semibold text-white leading-tight">
-        Learn and start your career in Human Resources (HR) & Management
-      </div>
+    <>
+      <div
+        className="
+          mx-auto mt-16 
+          w-[280px] h-[60px] 
+          sm:w-[320px] sm:h-[70px] 
+          md:w-[352px] md:h-[80px] 
+          rounded-[20px] border-2 
+          bg-[#4E88E0] bg-center bg-contain bg-no-repeat"
+        style={{ backgroundImage: `url(${img})` }}
+      ></div>
 
       <div
-        className="right w-full md:w-[611px] h-[300px] md:h-full rounded-[20px] md:rounded-[40px] bg-center bg-cover"
-        style={{ backgroundImage: `URL(${heropic})` }}
-      />
-    </div>
+        className="
+          text-center mt-8 
+          text-[36px] sm:text-[48px] md:text-[60px] 
+          font-raleway font-semibold text-[#101828]"
+      >
+        SupportPro HR Training
+      </div>
+    </>
   );
 };
 
-export default Hero;
+export default Title;
