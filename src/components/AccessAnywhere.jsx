@@ -1,7 +1,7 @@
 import devices from '../assets/devices.png';
-import study0 from '../assets/study0.png';
-import study1 from '../assets/study1.png';
-import study2 from '../assets/study2.png';
+import study0 from '../assets/study0.jpg';
+import study1 from '../assets/study1.jpg';
+import study2 from '../assets/study2.jpg';
 import mic from '../assets/mic.png';
 
 const AccessAnywhere = () => {

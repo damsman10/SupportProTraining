@@ -5,11 +5,11 @@ export default function DigitalSkills() {
   return (
     <div className="relative bg-[#E2E8F0] md:rounded-[40px] w-full max-w-[1236px] h-auto md:h-[558px] p-6 md:p-10 my-10 mx-auto flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden">
       
-      {/* Mobile image*/}
-      <div className="md:hidden w-full h-[300px] bg-no-repeat bg-contain bg-center rounded-[30px]" style={{ backgroundImage: `url(${lappy})` }}></div>
+      
+      <div className="mobile image md:hidden w-full h-[300px] bg-no-repeat bg-contain bg-center rounded-[30px]" style={{ backgroundImage: `url(${lappy})` }}></div>
 
-      {/* Text */}
-      <div className="flex-1 z-10 text-center md:text-left mt-6 md:mt-0">
+      
+      <div className="text flex-1 z-10 text-center md:text-left mt-6 md:mt-0">
         <h2 className="text-[24px] md:text-[32px] font-inter font-normal mb-4 md:mb-6">
           People earn online using digital skills.
         </h2>
@@ -28,9 +28,9 @@ export default function DigitalSkills() {
         </button>
       </div>
 
-      {/* Desktop absolute image */}
+      
       <div
-        className="hidden md:block absolute right-0 -top-1 w-[532px] h-[552px] rounded-[30px] bg-no-repeat bg-contain bg-center"
+        className="desktop-absolute-image hidden md:block absolute right-0 -top-1 w-[532px] h-[552px] rounded-[30px] bg-no-repeat bg-contain bg-center"
         style={{ backgroundImage: `url(${lappy})` }}
       ></div>
     </div>

@@ -115,7 +115,7 @@ const Topics = () => {
           {topics.map((topic, index) => (
             <div
               key={index}
-              className="w-full sm:w-[45%] lg:w-[30%] h-auto min-h-[230px] rounded-[10px] border-2 border-[#4E88E0] p-4"
+              className="w-full sm:w-[45%] lg:w-[30%] h-auto min-h-[230px] rounded-[10px] !border-2 !border-[#4E88E0] p-4"
             >
               <h3 className="text-lg md:text-xl font-raleway font-medium mb-2 text-center">
                 {topic.title}
