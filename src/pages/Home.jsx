@@ -2,6 +2,7 @@ import AcademyFees from "../components/AcademyFees"
 import AccessAnywhere from "../components/AccessAnywhere"
 import AnyQuestions from "../components/AnyQuestions"
 import AuxHRSection from "../components/AuxHRSection"
+import BackToTop from "../components/BackToTop"
 import CertificationSection from "../components/CertificationSection"
 import Criteria from "../components/Criteria"
 import Curriculum from "../components/Curriculum"
@@ -86,6 +87,7 @@ const Home = () => {
         </div>
         
         <Footer />
+        <BackToTop />
 
     </div>
   )
