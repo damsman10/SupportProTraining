@@ -12,7 +12,7 @@ const Directors = () => {
           {[{ img: bunmi, name: "Oluwabunmi Akindahunsi", role: "Managing Consultant, Elizabeth Maddeux Limited." },
             { img: victor, name: "Olatunde, Victor Adeoluwa", role: "Founder, Salesplat & AuxHR" }]
             .map((director, index) => (
-              <div key={index} className="w-full sm:w-[300px] md:w-[462.7px] h-[532px] rounded-[10px] flex flex-col bg-white">
+              <div key={index} className="w-full sm:w-[300px] md:w-[462.7px] h-[532px] sm:rounded-[10px] flex flex-col bg-white">
                 <div className="h-[459px]">
                   <img
                     src={director.img}
@@ -20,7 +20,7 @@ const Directors = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="h-[73px] py-2 px-3 text-center">
+                <div className="h-[73px] py-2 px-1 sm:px-3 text-center">
                   <h3 className="font-semibold text-[20px] md:text-[24px] font-raleway">{director.name}</h3>
                   <p className="text-[14px] md:text-[16px] font-raleway font-normal">{director.role}</p>
                 </div>

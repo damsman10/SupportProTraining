@@ -3,7 +3,7 @@ import criteria from '../assets/criteria.svg';
 const Criteria = () => {
   return (
     <div className="py-16 px-4">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start gap-16 lg:gap-[288px] max-w-[1268px] mx-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-between lg:items-start gap-16 lg:gap-[30px] max-w-[1268px] mx-auto">
         <div className="left space-y-4 text-center lg:text-left">
           <h2 className="text-[24px] font-raleway font-semibold w-full lg:w-[576px] mx-auto lg:mx-0">
             What are the enrolment criteria into our HR training program?
@@ -23,14 +23,14 @@ const Criteria = () => {
             Passionate about HR, recruitment, or business management; able to perform basic computer tasks (email, MS Office, web browsing); proficient in spoken and written English with a stable internet connection.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 mt-10">
-            <button className="bg-[#101828] font-bold font-raleway text-[20px] w-[180px] h-[60px] text-white px-6 py-2 rounded-[10px]">
+          <div className="flex flex-col-reverse sm:flex-row items-center justify-center lg:justify-start gap-6 mt-10">
+            <button className="bg-[#101828] font-bold font-raleway text-[20px] w-[200px] h-[60px] text-white px-6 py-2 rounded-[10px]">
               I want to enroll
             </button>
 
-            <div className="relative text-sm text-yellow-600 font-semibold mt-8 sm:mt-0">
+            <div className="relative text-sm text-yellow-600 font-semibold mt-2 sm:mt-0">
               <svg
-                className="absolute -top-20 -left-12 sm:left-0"
+                className="sm:absolute -top-24 -left-12 sm:left-0"
                 width="252"
                 height="181"
                 viewBox="0 0 252 181"
@@ -44,7 +44,7 @@ const Criteria = () => {
                 />
               </svg>
 
-              <div className="absolute -top-20 left-8 sm:left-20 font-bold text-[24px] font-inter text-[#101828] -rotate-[12.58deg]">
+              <div className="absolute top-6 left-16 sm:-top-20 sm:left-20 font-bold text-[24px] font-inter text-[#101828] -rotate-[12.58deg]">
                 <span className="font-raleway font-bold text-[24px] block">Just</span>
                 <span className="text-[24px] font-inter font-bold block -mb-1.5">₦50,000</span>
                 <span className="font-raleway font-bold text-[32px] block">or</span>
