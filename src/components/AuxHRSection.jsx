@@ -72,7 +72,7 @@ const AuxHRSection = () => {
               />
             </svg>
 
-            <button className="bg-[#101828] text-white w-full sm:w-[359px] h-[50px] sm:h-[60px] rounded-[20px] border-4 border-white font-medium font-raleway text-[14px] sm:text-[18px] px-4 py-2 relative z-20">
+            <button className="bg-[#101828] text-white w-full sm:w-[359px] h-[50px] sm:h-[60px] rounded-[20px] !border-solid border-4 border-white font-medium font-raleway text-[14px] sm:text-[18px] px-4 py-2 relative z-20">
               Plan ahead and enroll in any batch
             </button>
           </div>
