@@ -20,7 +20,7 @@ const Directors = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="h-[73px] py-2 px-1 sm:px-3 text-center">
+                <div className="min-h-[73px] py-2 px-2 sm:px-3 text-center">
                   <h3 className="font-semibold text-[20px] md:text-[24px] font-raleway">{director.name}</h3>
                   <p className="text-[14px] md:text-[16px] font-raleway font-normal">{director.role}</p>
                 </div>
