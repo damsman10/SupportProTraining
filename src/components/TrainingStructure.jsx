@@ -11,7 +11,7 @@ const TrainingStructure = () => {
           </svg>
 
         </button>
-        <button className="bg-[#b80b0b] w-full md:w-[130px] h-[40px] flex items-center justify-center gap-3 font-raleway text-white text-[12px] font-bold px-4 py-1 rounded-full shadow-sm">
+        <button className="bg-[#b80b0b] w-full md:w-[130px] h-[40px] flex items-center justify-center gap-3 font-raleway text-white text-[12px] font-[900] px-4 py-1 rounded-full shadow-sm">
           Now closed 🔒
         </button>
 
@@ -23,7 +23,7 @@ const TrainingStructure = () => {
           </svg>
 
         </button>
-        <button className="bg-[#2684FF] w-full md:w-[120px] h-[40px] flex items-center justify-center gap-3 font-raleway text-white text-[12px] font-bold px-4 py-1 rounded-full shadow-sm">
+        <button className="bg-[#2684FF] w-full md:w-[120px] h-[40px] flex items-center justify-center gap-3 font-raleway text-white text-[12px] font-[900] px-4 py-1 rounded-full shadow-sm">
           Enroll here
           <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5438 1.29062L19.7198 7.83707C20.0988 8.23879 20.0804 8.87169 19.6787 9.25068L13.1322 15.4268C12.7305 15.8058 12.0976 15.7873 11.7186 15.3856C11.3396 14.9839 11.358 14.351 11.7598 13.972L16.5502 9.45262L0.970971 8.99909L1.02917 6.99994L16.6084 7.45347L12.089 2.66308C11.71 2.26136 11.7284 1.62846 12.1301 1.24946C12.5319 0.870468 13.1648 0.888893 13.5438 1.29062Z" fill="white"/>

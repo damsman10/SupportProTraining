@@ -6,7 +6,7 @@ const DatePill = () => {
   
           <div className="text-center now-open space-y-4">
             <p className="text-white text-[24px] lg:text-[30px] font-semibold font-poppins">NOW OPEN</p>
-            <div className="bg-[#07937C] border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
+            <div className="!bg-[#07937C] px-3 sm:px-0 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
                             w-full max-w-[316px] h-[96px] lg:h-[112px] rounded-2xl flex justify-center items-center mx-auto sm:w-[316px]">
               Register Now !!!
             </div>
@@ -14,7 +14,7 @@ const DatePill = () => {
   
           <div className="text-center may-30th space-y-4">
             <p className="text-white text-[24px] lg:text-[30px] font-semibold font-poppins">MAY 30th 2025</p>
-            <span className="bg-red-600 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
+            <span className="!bg-[#FF0000CC] px-3 sm:px-0 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
                             w-full max-w-[316px] h-[96px] lg:h-[112px] rounded-2xl flex justify-center items-center mx-auto sm:w-[340px]">
               Registration closes
             </span>
@@ -22,7 +22,7 @@ const DatePill = () => {
   
           <div className="text-center space-y-4">
             <p className="text-white text-[24px] lg:text-[30px] font-semibold font-poppins">JUNE 2nd 2025</p>
-            <span className="bg-blue-500 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
+            <span className="!bg-[#4E88E0] px-3 sm:px-0 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
                             w-full max-w-[316px] h-[96px] lg:h-[112px] rounded-2xl flex justify-center items-center mx-auto sm:w-[316px]">
               Cohort starts
             </span>
