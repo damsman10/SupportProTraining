@@ -7,15 +7,15 @@ const CertificationSection = () => {
     <div className="py-16 px-4 sm:px-6 bg-white mt-10">
       <div className="max-w-7xl mx-auto space-y-16">
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
           <img
             src={grad}
             alt="Graduate"
-            className="object-cover rounded-md w-full max-w-[300px] lg:max-w-none"
+            className="hidden object-cover rounded-md w-full max-w-[300px] lg:max-w-none"
           />
 
-          <div className="text-center">
-            <h3 className="text-[40px] sm:text-[48px] md:text-[60px] font-bold font-raleway text-center mb-4 tracking-widest leading-[1.2]">
+          <div className="text-center flex flex-col items-center">
+            <h3 className="text-[40px] flex items-center w-2/4 sm:text-[48px] md:text-[60px] font-bold font-raleway text-center mb-4 tracking-widest leading-[1.2]">
               CER-<br />
               TI-FI-<br />
               CATE
@@ -28,7 +28,7 @@ const CertificationSection = () => {
           <img
             src={cert}
             alt="Certificate"
-            className="object-contain rounded-md w-full max-w-[300px] lg:max-w-none"
+            className="w-2/4 object-contain rounded-md w max-w-[300px] lg:max-w-none"
           />
         </div>
 

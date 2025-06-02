@@ -3,7 +3,7 @@ import tgroup from '../assets/tgroup.png';
 
 const AuxHRSection = () => {
   return (
-    <div className="py-12 px-4 sm:px-6 bg-white mt-8">
+    <div className="hidden py-12 px-4 sm:px-6 bg-white mt-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         <div>
           <img

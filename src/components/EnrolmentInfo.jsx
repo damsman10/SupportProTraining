@@ -28,7 +28,7 @@ const EnrolmentInfo = () => {
           <button className="!bg-[#CF3652CC] text-black px-4 py-1 rounded-[10px] text-[20px] font-raleway w-full max-w-[274px] h-[50px] font-semibold">
             Registration closed
           </button>
-          <p className="text-[20px] font-semibold font-poppins mt-1">May 30th 2025</p>
+          <p className="text-[20px] font-semibold font-poppins mt-1">June 23rd 2025</p>
         </div>
 
         <div className="space-y-2">

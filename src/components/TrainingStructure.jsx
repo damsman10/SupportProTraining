@@ -3,7 +3,7 @@ import trainees from '../assets/trainees.png';
 const TrainingStructure = () => {
   return (
     <div className="py-6 px-6 bg-white">
-      <div className="flex flex-col sm:flex-row justify-between gap-10 sm:gap-2 px-20 mb-20">
+      <div className="hidden flex flex-col sm:flex-row justify-between gap-10 sm:gap-2 px-20 mb-20">
         <button className="bg-[#1FAF38] w-full md:w-[130px] flex items-center justify-center gap-3 h-[40px] font-raleway text-center text-[12px] font-[900] text-white text-sm px-4 py-1 rounded-full shadow-sm">
           Now open 
           <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">

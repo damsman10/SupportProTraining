@@ -7,7 +7,7 @@ const AcademyFees = () => {
             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] font-raleway text-center font-semibold mb-6">
               The academy fees
             </h2>
-            <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mb-4">
+            <div className="hidden flex flex-wrap justify-center gap-4 sm:gap-8 mb-4">
               <span className="bg-[#09826E] text-white text-[14px] sm:text-[16px] font-raleway font-bold px-4 py-1 rounded-full">
                 NGN
               </span>
@@ -16,7 +16,7 @@ const AcademyFees = () => {
               </span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-2">
-              <span className="text-[20px] sm:text-[24px] font-inter font-medium text-[#101828]">₦100,000</span>
+              <span className="text-[20px] sm:text-[24px] font-inter font-medium text-[#101828] line-through">₦100,000</span>
               <span className="text-[20px] sm:text-[24px] font-inter font-bold text-[#101828] border-b-2">₦50,000</span>
               <span className="text-[20px] sm:text-[24px] font-inter font-semibold text-[#101828]">$50</span>
             </div>

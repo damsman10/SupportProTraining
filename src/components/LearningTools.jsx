@@ -1,4 +1,4 @@
-import zoom from '../assets/zoom.png';
+import meet from '../assets/meet.png';
 import classroom from '../assets/classroom.jpg';
 
 const LearningTools = () => {
@@ -20,8 +20,8 @@ const LearningTools = () => {
           <div className="md:w-1/2 mt-8 md:mt-0 space-y-6">
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
               <div
-                className="w-20 h-20 bg-blue-500 rounded-full bg-cover bg-center shrink-0"
-                style={{ backgroundImage: `url(${zoom})` }}
+                className="w-20 h-20 bg-blue-500 rounded-full bg-contain"
+                style={{ backgroundImage: `url(${meet})` }}
               ></div>
               <p className="max-w-[403px] font-poppins text-[16px] font-normal leading-[24px] text-center sm:text-left">
                 <strong>Zoom</strong> – For attending live virtual training sessions, Q&A discussions, and interactive
