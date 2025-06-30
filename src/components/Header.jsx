@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header className="w-full px-6 md:px-12 flex items-center justify-between shadow-md bg-white sticky top-0 z-50 h-[100px]">
-      {/* Logo */}
+      
       <div className="logo h-20 flex items-center">
         <img src={logo} alt="SupportPro Logo" className="max-h-32" />
       </div>
@@ -24,9 +24,11 @@ const Header = () => {
         <button className="border-[2px] border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
           Login
         </button>
-        <button className="h-[60px] w-[120px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[20px] hover:bg-blue-700">
-          Enroll →
-        </button>
+        <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+          <button className="h-[60px] w-[120px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[20px] hover:bg-blue-700">
+            Enroll →
+          </button>
+        </a>
       </div>
 
       {/* Mobile Hamburger */}

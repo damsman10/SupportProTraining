@@ -24,9 +24,11 @@ const Criteria = () => {
           </p>
 
           <div className="flex flex-col-reverse sm:flex-row items-center justify-center lg:justify-start gap-6 mt-10">
-            <button className="bg-[#101828] font-bold font-raleway text-[20px] w-[200px] h-[60px] text-white px-6 py-2 rounded-[10px]">
-              I want to enroll
-            </button>
+            <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+              <button className="bg-[#101828] font-bold font-raleway text-[20px] w-[200px] h-[60px] text-white px-6 py-2 rounded-[10px]">
+                I want to enroll
+              </button>
+            </a>
 
             <div className="relative text-sm text-yellow-600 font-semibold mt-2 sm:mt-0">
               <svg

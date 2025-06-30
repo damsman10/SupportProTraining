@@ -27,9 +27,11 @@ const AuxHRSection = () => {
             Business Owners and Employees especially love the OBAD daily sessions.
           </p>
 
-          <button className="bg-[#101828] w-full sm:w-[197px] h-[60px] sm:h-[79px] rounded-[20px] text-white px-6 py-4 hover:bg-[#1c2e4a] font-raleway text-[20px] sm:text-[24px] font-medium mt-10">
-            Enroll here
-          </button>
+          <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+            <button className="bg-[#101828] w-full sm:w-[197px] h-[60px] sm:h-[79px] rounded-[20px] text-white px-6 py-4 hover:bg-[#1c2e4a] font-raleway text-[20px] sm:text-[24px] font-medium mt-10">
+              Enroll here
+            </button>
+          </a>
         </div>
       </div>
 

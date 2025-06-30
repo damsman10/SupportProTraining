@@ -16,11 +16,13 @@ const TalentMgt = () => {
           <li>Grow your businesses</li>
         </ul>
 
-        <button className="bg-[#4E88E0] w-full max-w-[280px] h-[50px] sm:h-[55px] lg:h-[60px] 
-                           rounded-[20px] mt-10 text-[18px] sm:text-[24px] lg:text-[30px] 
-                           font-semibold font-raleway text-white px-6 py-2 hover:bg-blue-600 transition">
-          Register Now →
-        </button>
+        <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#4E88E0] w-full max-w-[280px] h-[50px] sm:h-[55px] lg:h-[60px] 
+                            rounded-[20px] mt-10 text-[18px] sm:text-[24px] lg:text-[30px] 
+                            font-semibold font-raleway text-white px-6 py-2 hover:bg-blue-600 transition">
+            Register Now →
+          </button>
+        </a>
       </div>
     </div>
   );

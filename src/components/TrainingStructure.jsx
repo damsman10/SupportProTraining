@@ -73,9 +73,11 @@ const TrainingStructure = () => {
         </div>
       </div>
           <div className="button text-center mt-10">
-            <button className="border-4 border-[#4884DF] rounded-[20px] bg-[#101828] text-white px-10 py-2 hover:bg-[#596298] transition duration-200 font-raleway text-[18px]">
-              Enroll here
-            </button>
+            <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+              <button className="border-4 border-[#4884DF] rounded-[20px] bg-[#101828] text-white px-10 py-2 hover:bg-[#596298] transition duration-200 font-raleway text-[18px]">
+                Enroll here
+              </button>
+            </a>
           </div>
     </div>
   );

@@ -11,9 +11,11 @@ export default function FinalCTA() {
             <br className="hidden lg:inline" />
             rich, organized, and beautiful."
           </h2>
-          <button className="bg-[#2563EB] w-[200px] md:w-[230px] h-[50px] md:h-[55px] rounded-[50px] text-white mt-6 py-3 px-8 shadow hover:bg-blue-700 transition font-poppins font-semibold text-[16px] text-center">
-            Join us today
-          </button>
+          <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+            <button className="bg-[#2563EB] w-[200px] md:w-[230px] h-[50px] md:h-[55px] rounded-[50px] text-white mt-6 py-3 px-8 shadow hover:bg-blue-700 transition font-poppins font-semibold text-[16px] text-center">
+              Join us today
+            </button>
+          </a>
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center">

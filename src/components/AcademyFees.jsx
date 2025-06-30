@@ -55,13 +55,19 @@ const AcademyFees = () => {
           </div>
           <div className="h-auto mt-2 bg-[#EDF4FF] px-6 py-6 rounded-b-[20px]">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button className="bg-[#09826E] h-[50px] w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-white rounded-[10px] hover:bg-green-800 transition">
-                Full payment ➡
-              </button>
+              <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#09826E] h-[50px] w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-white rounded-[10px] hover:bg-green-800 transition">
+                  Full payment ➡
+                </button>
+              </a>
+
               <span className="text-[18px] sm:text-[20px] font-bold text-black font-raleway">OR</span>
-              <button className="bg-[#FDA33B] h-[50px] w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-black rounded-[10px] hover:bg-yellow-400 transition">
-                Part payment ➡
-              </button>
+
+              <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#FDA33B] h-[50px] w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-black rounded-[10px] hover:bg-yellow-400 transition">
+                  Part payment ➡
+                </button>
+              </a>
             </div>
           </div>
         </div>
