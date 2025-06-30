@@ -24,7 +24,7 @@ export default function DigitalSkills() {
         </p>
 
         <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-          <button className="mt-8 md:mt-32 bg-[#2563EB] w-full md:w-[208.8px] h-[55px] text-white font-semibold text-[16px] md:text-[18px] text-center leading-[28px] px-6 py-2 rounded-[50px] flex justify-center items-center gap-2 hover:bg-blue-700 transition">
+          <button className="mt-8 md:mt-32 bg-[#2563EB] cursor-pointer w-full md:w-[208.8px] h-[55px] text-white font-semibold text-[16px] md:text-[18px] text-center leading-[28px] px-6 py-2 rounded-[50px] flex justify-center items-center gap-2 hover:bg-blue-700 transition">
             Register now <ArrowRight size={16} />
           </button>
         </a>

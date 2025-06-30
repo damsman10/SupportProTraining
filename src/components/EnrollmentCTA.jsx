@@ -16,16 +16,16 @@ const EnrollmentCTA = () => {
         <div className="space-y-4 text-[20px] sm:text-[24px] md:text-[28px] font-raleway font-medium text-center md:text-left">
           <p>Enrollment is currently on-going.</p>
           <p>
-            Classes commence on <strong className="font-bold">June 2nd 2025</strong>
+            Classes commence on <strong className="font-bold">July 23rd 2025</strong>
           </p>
           <p>
-            Enrollment open till <span className="text-[#DD1212] font-bold">May 30th 2025</span>
+            Enrollment open till <span className="text-[#DD1212] font-bold">July 18th 2025</span>
           </p>
           <p>You should enroll now.</p>
 
           <div className="mt-12 flex justify-center md:justify-start">
             <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-              <button className="border-4 border-[#4884DF] w-[180px] h-[50px] bg-[#101828] text-white px-6 py-2 rounded-[20px] hover:bg-[#384862] font-raleway font-semibold text-[18px]">
+              <button className="border-4 border-[#4884DF] w-[180px] h-[50px] cursor-pointer bg-[#101828] text-white px-6 py-2 rounded-[20px] hover:bg-[#384862] font-raleway font-semibold text-[18px]">
                 Enroll here
               </button>
             </a>

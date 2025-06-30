@@ -21,11 +21,11 @@ const Header = () => {
 
       {/* Desktop CTA Buttons */}
       <div className="hidden md:flex gap-4 font-semibold">
-        <button className="border-[2px] border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
+        <button className="border-[2px] cursor-pointer border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
           Login
         </button>
         <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-          <button className="h-[60px] w-[120px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[20px] hover:bg-blue-700">
+          <button className="h-[60px] w-[120px] cursor-pointer rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[20px] hover:bg-blue-700">
             Enroll →
           </button>
         </a>

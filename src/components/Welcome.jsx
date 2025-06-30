@@ -10,7 +10,7 @@ const Welcome = () => {
       </p>
       <div className="text-center">
         <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-          <button className="bg-[#4E88E0] hover:bg-blue-700 text-white px-6 py-2 rounded-[20px] w-[140px] h-[50px] md:w-[160px] md:h-[60px] font-raleway text-[18px] md:text-[20px] font-bold">
+          <button className="bg-[#4E88E0] cursor-pointer hover:bg-blue-700 text-white px-6 py-2 rounded-[20px] w-[140px] h-[50px] md:w-[160px] md:h-[60px] font-raleway text-[18px] md:text-[20px] font-bold">
             Enrol here
           </button>
         </a>
