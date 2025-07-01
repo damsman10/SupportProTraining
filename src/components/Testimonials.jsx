@@ -3,7 +3,7 @@ import test2 from '../assets/test2.png'
 
 const Testimonials = () => {
   return (
-    <div className="py-16 px-4">
+    <div id='testimonial' className="py-16 px-4">
       <div className="w-full max-w-[1440px] mx-auto text-center">
         <h2 className="text-[28px] sm:text-[32px] md:text-[40px] font-medium font-raleway mb-12">
           Testimonial from past participants?

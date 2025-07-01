@@ -5,7 +5,7 @@ import ebun from '../assets/ebun.png';
 
 const Directors = () => {
   return (
-    <div className="mt-20 px-4 md:px-0">
+    <div id='about' className="mt-20 px-4 md:px-0">
       <div className="max-w-[1280px] mx-auto">
 
         <h2 className="text-center text-[24px] md:text-[30px] lg:text-[36px] font-poppins font-medium mb-2">

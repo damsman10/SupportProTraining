@@ -105,7 +105,7 @@ const topics = [
 
 const Topics = () => {
   return (
-    <div className="px-4 sm:px-6 py-12">
+    <div id="course-outline" className="px-4 sm:px-6 py-12">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-[24px] sm:text-[28px] md:text-[32px] font-raleway font-semibold mb-10">
           Here are over 20 Course-topics you will learn:

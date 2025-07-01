@@ -44,19 +44,49 @@ const Header = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-[100px] left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 py-6 z-40 md:hidden">
-          <a href="#course-outline" className="text-[18px] text-gray-700 hover:text-blue-600">Course outline</a>
-          <a href="#testimonial" className="text-[18px] text-gray-700 hover:text-blue-600">Testimonial</a>
-          <a href="#about" className="text-[18px] text-gray-700 hover:text-blue-600">About</a>
-          <a href="#contact" className="text-[18px] text-gray-700 hover:text-blue-600">Contact</a>
+          <a
+            href="#course-outline"
+            className="text-[18px] text-gray-700 hover:text-blue-600"
+            onClick={() => setMenuOpen(false)}
+          >
+            Course outline
+          </a>
+          <a
+            href="#testimonial"
+            className="text-[18px] text-gray-700 hover:text-blue-600"
+            onClick={() => setMenuOpen(false)}
+          >
+            Testimonial
+          </a>
+          <a
+            href="#about"
+            className="text-[18px] text-gray-700 hover:text-blue-600"
+            onClick={() => setMenuOpen(false)}
+          >
+            About
+          </a>
+          <a
+            href="#contact"
+            className="text-[18px] text-gray-700 hover:text-blue-600"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contact
+          </a>
 
           <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-            <button className="border-[2px] border-black w-[120px] h-[50px] rounded-[20px] px-4 py-1 text-[18px] hover:bg-gray-100">
+            <button
+              className="border-[2px] border-black w-[120px] h-[50px] rounded-[20px] px-4 py-1 text-[18px] hover:bg-gray-100"
+              onClick={() => setMenuOpen(false)}
+            >
               Login
             </button>
           </a>
 
           <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
-            <button className="w-[120px] h-[50px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[18px] hover:bg-blue-700">
+            <button
+              className="w-[120px] h-[50px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[18px] hover:bg-blue-700"
+              onClick={() => setMenuOpen(false)}
+            >
               Enroll →
             </button>
           </a>

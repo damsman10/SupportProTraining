@@ -1,3 +1,5 @@
+import { ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline';
+
 const AcademyFees = () => {
   return (
     <div className="bg-[#4884DE] w-full px-4 sm:px-6 lg:px-8 py-20">
@@ -7,7 +9,7 @@ const AcademyFees = () => {
             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] font-raleway text-center font-semibold mb-6">
               The academy fees
             </h2>
-            <div className="hidden flex flex-wrap justify-center gap-4 sm:gap-8 mb-4">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mb-4">
               <span className="bg-[#09826E] text-white text-[14px] sm:text-[16px] font-raleway font-bold px-4 py-1 rounded-full">
                 NGN
               </span>
@@ -55,19 +57,28 @@ const AcademyFees = () => {
           </div>
           <div className="h-auto mt-2 bg-[#EDF4FF] px-6 py-6 rounded-b-[20px]">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+              <a className='w-full' href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#09826E] h-[50px] cursor-pointer w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-white rounded-[10px] hover:bg-green-800 transition">
-                  Full payment ➡
+                  Make payment ➡
                 </button>
               </a>
 
-              <span className="text-[18px] sm:text-[20px] font-bold text-black font-raleway">OR</span>
+              <span className="hidden text-[18px] sm:text-[20px] font-bold text-black font-raleway">OR</span>
 
-              <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+              <a className='hidden' href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#FDA33B] h-[50px] cursor-pointer w-full sm:w-[200px] text-[18px] sm:text-[20px] font-raleway font-bold text-black rounded-[10px] hover:bg-yellow-400 transition">
                   Part payment ➡
                 </button>
               </a>
+              <button
+                onClick={() => {
+                  window.open('https://yourchatlink.com', '_blank');
+                }}
+                className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-raleway text-[18px] sm:text-[20px] w-full h-[50px] px-2 py-2 rounded-[10px] cursor-pointer"
+              >
+                <ChatBubbleLeftRightIcon className="w-6 h-6" />
+                Chat with a Rep
+              </button>
             </div>
           </div>
         </div>
