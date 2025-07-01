@@ -4,7 +4,7 @@ import group from '../assets/group.png';
 
 const CertificationSection = () => {
   return (
-    <div className="py-16 px-4 sm:px-6 bg-white mt-10">
+    <div className="pt-10 px-4 sm:px-6 bg-white mt-10">
       <div className="max-w-7xl mx-auto space-y-16">
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
@@ -32,9 +32,9 @@ const CertificationSection = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-20 hidden">
           <div className="space-y-6 font-raleway text-[16px] sm:text-[18px] font-normal w-full max-w-[663px] mx-auto lg:mx-0">
-            <p>Every Batch of this training has a **** group with all the participants.</p>
+            <p>Every Batch of this training has a whatsapp group with all the participants.</p>
             <p>It will grow into an exciting and amazing family of friends pulling each other up.</p>
             <p>Even after the training, they form groups and do stuff together.</p>
             <div className="mt-8">

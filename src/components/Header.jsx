@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/SupportProLogo.svg';
+import logo from '../assets/SupportProLogo.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className="w-full px-6 md:px-12 flex items-center justify-between shadow-md bg-white sticky top-0 z-50 h-[100px]">
       
-      <div className="logo h-20 flex items-center">
-        <img src={logo} alt="SupportPro Logo" className="max-h-32" />
+      <div className="logo h-20 flex items-center -ml-2">
+        <img src={logo} alt="SupportPro Logo" className="max-h-17" />
       </div>
 
       {/* Desktop Navigation */}
@@ -21,7 +21,7 @@ const Header = () => {
 
       {/* Desktop CTA Buttons */}
       <div className="hidden md:flex gap-4 font-semibold">
-        <button className="border-[2px] cursor-pointer border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
+        <button className="border-[2px] border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
           Login
         </button>
         <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
@@ -48,12 +48,18 @@ const Header = () => {
           <a href="#testimonial" className="text-[18px] text-gray-700 hover:text-blue-600">Testimonial</a>
           <a href="#about" className="text-[18px] text-gray-700 hover:text-blue-600">About</a>
           <a href="#contact" className="text-[18px] text-gray-700 hover:text-blue-600">Contact</a>
-          <button className="border-[2px] border-black w-[120px] h-[50px] rounded-[20px] px-4 py-1 text-[18px] hover:bg-gray-100">
-            Login
-          </button>
-          <button className="w-[120px] h-[50px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[18px] hover:bg-blue-700">
-            Enroll →
-          </button>
+
+          <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+            <button className="border-[2px] border-black w-[120px] h-[50px] rounded-[20px] px-4 py-1 text-[18px] hover:bg-gray-100">
+              Login
+            </button>
+          </a>
+
+          <a href="https://paystack.shop/pay/g5665008p6" target="_blank" rel="noopener noreferrer">
+            <button className="w-[120px] h-[50px] rounded-[20px] bg-[#4E88E0] text-black px-4 py-1 text-[18px] hover:bg-blue-700">
+              Enroll →
+            </button>
+          </a>
         </div>
       )}
     </header>

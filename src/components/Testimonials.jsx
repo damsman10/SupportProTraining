@@ -37,23 +37,23 @@ const Testimonials = () => {
 
 
           <div className="bg-white w-full max-w-[600px] rounded-[20px] p-6 shadow-md h-full mx-auto">
-  <div className="flex justify-center mb-4">
-    <img
-      src={test2}
-      alt="Participant 2"
-      className="rounded-full w-[120px] sm:w-[140px] h-[140px] sm:h-[160px] mb-8 object-cover"
-    />
-  </div>
-  <p className="text-[16px] sm:text-[18px] md:text-[20px] font-raleway font-normal text-left sm:text-center md:text-left">
-    The SupportPro HR & Revenue Operations Training was engaging, practical, and insightful.
-    Expert trainers and hands-on exercises made complex topics easy to grasp.
-    I highly recommend it for anyone looking to grow in HR and revenue operations.
-  </p>
-  <div className="mt-4 text-left sm:text-center md:text-left">
-    <p className="font-semibold text-lg">Preye Madaki</p>
-    <p className="text-sm text-gray-600">HR Assistant, NNPC Hospital</p>
-  </div>
-</div>
+            <div className="flex justify-center mb-4">
+              <img
+                src={test2}
+                alt="Participant 2"
+                className="rounded-full w-[120px] sm:w-[140px] h-[140px] sm:h-[160px] mb-8 object-cover"
+              />
+            </div>
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] font-raleway font-normal text-left sm:text-center md:text-left">
+              The SupportPro HR & Revenue Operations Training was engaging, practical, and insightful.
+              Expert trainers and hands-on exercises made complex topics easy to grasp.
+              I highly recommend it for anyone looking to grow in HR and revenue operations.
+            </p>
+            <div className="mt-4 text-left sm:text-center md:text-left">
+              <p className="font-semibold text-lg">Preye Madaki</p>
+              <p className="text-sm text-gray-600">HR Assistant, NNPC Hospital</p>
+            </div>
+          </div>
 
         </div>
       </div>
