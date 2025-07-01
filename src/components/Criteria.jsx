@@ -35,7 +35,7 @@ const Criteria = () => {
 
             <button
               onClick={() => {
-                window.open('https://yourchatlink.com', '_blank');
+                window.open('https://mysalesplat.com/HRAcademy', '_blank');
               }}
               id='contact'
               className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-raleway text-[20px] w-full h-[60px] px-2 py-2 rounded-[10px] cursor-pointer"
