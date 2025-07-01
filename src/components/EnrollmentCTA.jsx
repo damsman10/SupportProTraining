@@ -16,10 +16,10 @@ const EnrollmentCTA = () => {
         <div className="space-y-4 text-[20px] sm:text-[24px] md:text-[28px] font-raleway font-medium text-center md:text-left">
           <p>Enrollment is currently on-going.</p>
           <p>
-            Classes commence on <strong className="font-bold">July 23rd 2025</strong>
+            Classes commence on <strong className="font-bold">July 28th, 2025</strong>
           </p>
           <p>
-            Enrollment open till <span className="text-[#DD1212] font-bold">July 18th 2025</span>
+            Enrollment open till <span className="text-[#DD1212] font-bold">July 25th, 2025</span>
           </p>
           <p>You should enroll now.</p>
 

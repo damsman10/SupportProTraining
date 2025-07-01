@@ -12,7 +12,7 @@ const DatePill = () => {
           </div>
   
           <div className="text-center may-30th space-y-4">
-            <p className="text-[#4E88E0] text-[24px] lg:text-[30px] font-semibold font-poppins">July 18th </p>
+            <p className="text-[#4E88E0] text-[24px] lg:text-[30px] font-semibold font-poppins">July 25th </p>
             <span className="!bg-[#FF0000CC] px-3 sm:px-0 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
                             w-full max-w-[316px] h-[96px] lg:h-[112px] rounded-2xl flex justify-center items-center mx-auto sm:w-[340px]">
               Registration closes
@@ -20,7 +20,7 @@ const DatePill = () => {
           </div>
   
           <div className="text-center space-y-4">
-            <p className="text-[#4E88E0] text-[24px] lg:text-[30px] font-semibold font-poppins">July 23rd</p>
+            <p className="text-[#4E88E0] text-[24px] lg:text-[30px] font-semibold font-poppins">July 28th</p>
             <span className="!bg-[#4E88E0] px-3 sm:px-0 border-[6px] border-white text-white text-[24px] lg:text-[30px] font-poppins font-semibold 
                             w-full max-w-[316px] h-[96px] lg:h-[112px] rounded-2xl flex justify-center items-center mx-auto sm:w-[316px]">
               Cohort starts
