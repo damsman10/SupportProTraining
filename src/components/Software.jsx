@@ -1,14 +1,14 @@
-import logo from '../assets/SupportProLogo.svg'
+import logo from '../assets/SupportProLogo.png'
 
 const Software = () => {
   return (
     <div className="bg-[#FFFAFA] w-full max-w-[1590px] h-auto md:rounded-[30%] lg:rounded-[50%] mx-auto py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="logo overflow-hidden flex items-center justify-center -mt-8">
+        <div className="logo overflow-hidden flex items-center justify-center">
           <img src={logo} alt="SupportPro Logo" className="w-[12rem] md:w-[16rem] lg:w-[20rem]" />
         </div>
 
-        <h2 className="text-center text-[24px] md:text-[30px] lg:text-[36px] font-poppins font-medium mb-10 -mt-8 md:-mt-[4rem]">
+        <h2 className="text-center text-[24px] md:text-[30px] lg:text-[36px] font-poppins font-medium mb-10 ">
           Software you will learn as an HR Trainee
         </h2>
 
