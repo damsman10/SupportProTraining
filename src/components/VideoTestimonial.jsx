@@ -1,6 +1,6 @@
 const VideoTestimonial = () => {
   return (
-    <div className="w-full md:w-2/3 mb-6 mt-10 mx-auto">
+    <div className="w-[90%] md:w-2/3 mb-6 mt-10 mx-auto">
       <h2 className="text-center text-[24px] md:text-[30px] lg:text-[36px] font-poppins font-medium mb-2">
         Video Testimonial
       </h2>
