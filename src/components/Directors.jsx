@@ -8,6 +8,10 @@ const Directors = () => {
     <div className="mt-20 px-4 md:px-0">
       <div className="max-w-[1280px] mx-auto">
 
+        <h2 className="text-center text-[24px] md:text-[30px] lg:text-[36px] font-poppins font-medium mb-2">
+          Meet Your Facilitators
+        </h2>
+
         <div className="bg-[#101828] flex flex-wrap justify-center md:justify-between py-5 md:px-20 gap-8 mb-10">
           {[{ img: bunmi, name: "Oluwabunmi Akindahunsi", role: "Managing Consultant, Elizabeth Maddeux Limited." },
             { img: victor, name: "Olatunde, Victor Adeoluwa", role: "Founder, Salesplat & AuxHR" }]

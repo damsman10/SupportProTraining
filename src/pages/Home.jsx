@@ -30,6 +30,7 @@ import Topics from "../components/Topics"
 import TrainingAudience from "../components/TrainingAudience"
 import TrainingOverview from "../components/TrainingOverview"
 import TrainingStructure from "../components/TrainingStructure"
+import VideoTestimonial from "../components/VideoTestimonial"
 import Welcome from "../components/Welcome"
 
 
@@ -40,6 +41,7 @@ const Home = () => {
         <div className="max-w-[1284px] m-auto">
           <Title />
           <Hero />
+          <VideoTestimonial />
           <Welcome />
           <DatePill />
           <TalentMgt />

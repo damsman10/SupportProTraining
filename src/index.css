@@ -1,16 +1,23 @@
 @import "tailwindcss";
 
+/* Enable aspect ratio plugin */
+@plugin '@tailwindcss/aspect-ratio';
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 @layer utilities {
   .font-poppins {
     font-family: 'Poppins', sans-serif;
   }
   
   .font-raleway {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
   .font-montserrat {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .font-inter {
@@ -18,10 +25,8 @@
   }
 }
 
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
 }
