@@ -72,7 +72,7 @@ const AcademyFees = () => {
               </a>
               <button
                 onClick={() => {
-                  window.open('https://mysalesplat.com/HRAcademy', '_blank');
+                  window.open('https://wa.me/2349139981335?text=Hi%20Salesplat%2C%20I%E2%80%99ll%20love%20to%20Enquire%20about%20the%20HR%20Training%20Program%20', '_blank');
                 }}
                 className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-raleway text-[18px] sm:text-[20px] w-full h-[50px] px-2 py-2 rounded-[10px] cursor-pointer"
               >
