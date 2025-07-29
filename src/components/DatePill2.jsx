@@ -11,14 +11,14 @@ const DatePill2 = () => {
           </div>
   
           <div className="text-center space-y-4">
-            <p className="text-white text-[22px] md:text-[26px] lg:text-[30px] font-semibold font-poppins">July 25th, 2025</p>
+            <p className="text-white text-[22px] md:text-[26px] lg:text-[30px] font-semibold font-poppins">August 14th, 2025</p>
             <div className="!bg-[#FF0000CC] border-[4px] md:border-[6px] border-white text-white text-[20px] md:text-[26px] lg:text-[30px] font-poppins px-4 py-3 font-semibold w-full max-w-[340px] h-[96px] md:h-[112px] rounded-2xl flex justify-center items-center">
               Registration closes
             </div>
           </div>
   
           <div className="text-center space-y-4">
-            <p className="text-white text-[22px] md:text-[26px] lg:text-[30px] font-semibold font-poppins">July 28th, 2025</p>
+            <p className="text-white text-[22px] md:text-[26px] lg:text-[30px] font-semibold font-poppins">August 18th, 2025</p>
             <div className="!bg-[#4E88E0] border-[4px] md:border-[6px] border-white text-white text-[20px] md:text-[26px] lg:text-[30px] font-poppins px-4 py-3 font-semibold w-full max-w-[316px] h-[96px] md:h-[112px] rounded-2xl flex justify-center items-center">
               Cohort starts
             </div>
