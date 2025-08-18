@@ -11,7 +11,7 @@ const Header = () => {
         <img src={logo} alt="SupportPro Logo" className="max-h-17" />
       </div>
 
-      {/* Desktop Navigation */}
+      
       <nav className="hidden md:flex gap-8 text-[20px] font-poppins font-medium text-gray-700">
         <a href="#course-outline" className="hover:text-blue-600">Course outline</a>
         <a href="#testimonial" className="hover:text-blue-600">Testimonial</a>
@@ -19,7 +19,7 @@ const Header = () => {
         <a href="#contact" className="hover:text-blue-600">Contact</a>
       </nav>
 
-      {/* Desktop CTA Buttons */}
+      
       <div className="hidden md:flex gap-4 font-semibold">
         <button className="border-[2px] border-black h-[60px] w-[120px] rounded-[20px] px-4 py-1 text-[20px] hover:bg-gray-100">
           Login
@@ -31,7 +31,7 @@ const Header = () => {
         </a>
       </div>
 
-      {/* Mobile Hamburger */}
+      
       <div className="md:hidden flex items-center">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
@@ -41,7 +41,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       {menuOpen && (
         <div className="absolute top-[100px] left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 py-6 z-40 md:hidden">
           <a
